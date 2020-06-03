@@ -27,3 +27,5 @@ class ToggleFolder extends Component{
   }
   //End of file
 };
+
+export default ToggleFolder;
