@@ -1,11 +1,13 @@
 import React,  {Component} from 'react';
 import ToggleFolder from"./ToggleFolder.js"
+import Form from './form';
 import "./App.css"
 
 class App extends Component {
   render() {
     return (
       <>
+      < Form />
       <ToggleFolder>
         <ul>
         <li> File 1 </li>
