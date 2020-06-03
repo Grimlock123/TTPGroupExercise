@@ -18,12 +18,12 @@ class ToggleFolder extends Component{
   render(){
     return(
       <div>
-      //Add Home button to toggle the folders
       <button onClick={this.toggle}> Home </button>
-      //Each time the user clicks on Home, the files are shown
         {this.state.on && this.props.children}
       </div>
     )
   }
   //End of file
 };
+
+export defautl ToggleFolder;
