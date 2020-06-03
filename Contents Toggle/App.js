@@ -1,6 +1,6 @@
 import React,  {Component} from 'react';
 import ToggleFolder from"./ToggleFolder.js"
-import Form from './form';
+import Form from '../src/form';
 import "./App.css"
 
 class App extends Component {
