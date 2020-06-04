@@ -59,4 +59,4 @@ this.setState({ currState: "editing" });
     }
   }
 
-export default App
+export default App;
