@@ -39,8 +39,8 @@ this.setState({ currState: "editing" });
 	if (this.state.currState === "default") {
 	    return (
 		    <div> 		    
-		    First Name: {this.state.firstName} <br/>
-		    Last Name: {this.state.lastName} <br/>
+		    First Name: {this.state.fName} <br/>
+		    Last Name: {this.state.lName} <br/>
 		    <button onMouseDown={this.showEdit}>Edit</button>
 		    </div>
 		    );
