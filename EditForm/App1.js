@@ -5,8 +5,8 @@ class App extends Component {
 constructor(props) {
 super(props);
 this.state = {
-	  fName: this.props.firstName,
-	    lName: this.props.lastName,
+	  fName: this.props.fName,
+	    lName: this.props.lName,
 	      currState: this.props.currState
 	};
 
@@ -27,11 +27,11 @@ this.setState({ currState: "editing" });
 	this.setState({currState: "default"});
     }
 
-    handleChangeFirstName = (event) => {
+    handleChangeFName = (event) => {
       this.setState({fName: event.target.value});
     }
 
-    handleChangeLastName = (event) => {
+    handleChangeLName = (event) => {
       this.setState({lName: event.target.value});
     }
 
@@ -59,4 +59,4 @@ this.setState({ currState: "editing" });
     }
   }
 
-export default App;
+export default App
